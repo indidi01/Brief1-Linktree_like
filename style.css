@@ -1,0 +1,84 @@
+/* mobile first 360px */
+/*#229eab
+#fdd70e*/
+
+* {
+  margin: 0%;
+  margin-bottom: 0.5rem;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #229eab;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header img {
+  margin: 0rem 1rem 2rem 1rem;
+  width: 7rem;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.slogan {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+}
+
+main ul {
+  list-style-type: none;
+  max-width: 16rem;
+  margin: 0 auto;
+}
+
+main li {
+  margin-bottom: 1.25rem;
+}
+
+main a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: #fdd70e;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  gap: 1rem;
+}
+
+main a img {
+  width: 2.5rem;
+  margin: 0.5rem 2rem 0.5rem 1rem;
+}
+
+main a p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+main a:hover,
+main a:focus {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+@media (min-width: 680px) {
+  body {
+    padding: 4rem;
+  }
+}
